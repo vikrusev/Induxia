@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A propos</title>
+	<meta charset="utf-8">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/player.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<nav id="menu">
+			<div id="burger" onclick="expandMenu()">
+				<div class="parent">
+					<div></div>
+				</div>
+			</div>
+			
+			<ul>
+				<li>
+					<a href="index.html">En attendans</a>
+				</li>
+				<li>
+					<a href="propos.html">A propos</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+				<li>
+					<a href="#insta">
+						<img src="resources/insta.png" alt="instaImg" height="30px" />
+
+						<span>nous suivre &nbsp &nbsp &nbsp</span>
+					</a>
+				</li>
+				<li onclick="setClassToMenu()">
+					<img src="resources/shrinkMenu.png" alt="Up" />
+				</li>
+			</ul> 
+		</nav>
+
+		<div id="playerWrapper">
+			<video id="videoPlayer" autoplay muted>
+				<source src="resources/EnAttendant03.mp4" type="video/mp4">
+			</video>
+
+			<div id="playerControllers">
+				<div class="centerer">
+					<input type="range" id="bar" />
+					<button type="button" id="action">Pause</button>
+					<button type="button" id="sound">Sound On</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="lineCenterer"><div id="line"></div></div>
+
+	<div class="greyBg text">
+		<div class="centerer">
+			<p id="center">
+				On peut repandre la lumiere de deux facons : etre la bougie, ou le miroir qui la reflete.
+				<br/> Henry Miller 
+				<br/> .. 
+			</p>
+
+			<p>Rogatus ad ultimum admissusque in consistorium ambage nulla praegressa inconsiderate et leviter proficiscere inquit ut
+			praeceptum est. Caesar sciens quod si cessaveris, et tuas et palatii tui auferri iubebo prope diem annonas. Hocque solo
+			contumaciter dicto subiratus abscessit nec in conspectum eius postea venit saepius arcessitus.
+			</p>
+
+			<p>Rogatus ad ultimum admissusque in consistorium ambage nulla praegressa inconsiderate et leviter proficiscere inquit ut
+			praeceptum est. Caesar sciens quod si cessaveris, et tuas et palatii tui auferri iubebo prope diem annonas. Hocque solo
+			contumaciter dicto subiratus abscessit nec in conspectum eius postea venit saepius arcessitus.
+			</p>
+		</div>
+	</div>
+
+	<div class="greyBg" id="insta">
+		<div class="centerer">
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+			<img src="http://www.drettmann-yachts.com/uploads/tx_frsupersized/DMY32_Exterior_08.jpg" alt="img" />
+		</div>
+	</div>
+
+	<div id="footer">
+		<div id="contact">
+			Contact
+		</div>
+
+		<div id="address">
+			<h4>26 rue Pierre et Marie Curie &nbsp 94 200 Ivry sur Seine</h4>
+			<a href="mailto:enattendant@en-attendant.fr">
+				enattendant@en-attendant.fr
+			</a>
+		</div>
+
+		<div id="credits">
+			<span id="creditsButton"> Credits </span>
+		</div>
+
+		<div id="creditsText">
+			<h4> EN ATTENDANT All Rights reseserved 2017</h4>
+			<h4> Design: <span> <a href="http://leshabilleurs.com" target="_blank">LESHABILLEURS.COM </a> </span> </h4>
+			<h4> Developpement: <span> <a href="http://induxia.com" target="_blank"> INDUXIA.COM </a> </span> </h4>
+			<h4> Hebergement: </h4>
+			
+			<hr>
+
+			<h4> Editeur: EN ATTENDANT </h4>
+			<h4> Responsible de la publication: Frederic Godeau </h4>
+
+			<hr>
+
+			<h4> <span> DROITS D'AUTEURS ET COPYRIGHT </span> </h4>
+
+			<div class="text">
+				L'ensemble de ce site releve de la legislatin francaise et internationale sur le droit
+				d'auteur et la propeiete intellecuelle. Tous les droits de reproduction sont reserves. y
+				compris pour les documents telechargeables et les representations iconographiques et
+				photographiques. La reproduction de tout ou partie de ce sire sur un support electronique
+				quel qu'il soit est formellement interdire sauf autorisation expresse du directeur
+				de la publication (voir coordonnees ci-dessus).
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
